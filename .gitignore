@@ -21,6 +21,12 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
+/workspace.xml
+/vcs.xml
+/modules.xml
+/misc.xml
+/CheckSum.iml
+
 
 ### VS Code ###
 .vscode/
