@@ -5,16 +5,21 @@ public class Menu {
 
 
     public void start() {
-        Scanner scanner = new Scanner(System.in);
 
+       displayChoice();
+       askChoice();
+
+
+
+
+    }
+
+    private void askChoice() {
+        Scanner scanner = new Scanner(System.in);
         while (userChoice != 3) {
             displayChoice();
-
-
             if (scanner.hasNextInt()) {
                 userChoice = scanner.nextInt();
-
-
                 if (userChoice == 1) {
                     System.out.println("Vous avez choisi l'action 1.");
                 }
